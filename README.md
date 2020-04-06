@@ -12,7 +12,8 @@ The model in "square.py" has overfitting problem and gives much deviation in exp
 We saved the trained model from "dr-square.py" as "dr-square-model.h5" and we used the saved model to make predictions using "load-dr-square-model.py"
 
 # Results
-The square of 7 in the model without dropout gave result as [67] 
-The square of 7 in the model with dropout gave result as [50]
+The square of 7 in the model without dropout gave result as [67].
+
+The square of 7 in the model with dropout gave result as [50].
 
 You can see the difference by seeing predictions for your values as well.
