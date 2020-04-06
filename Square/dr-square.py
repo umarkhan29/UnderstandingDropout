@@ -22,6 +22,8 @@ for x in range(14):
 #Defining Model
 model = Sequential()
 model.add(Dense(1,input_shape = (1,)))
+
+#adding dropout layer
 model.add(Dropout(0.25, noise_shape=None, seed=None))
 
 
