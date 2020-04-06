@@ -1,6 +1,10 @@
 # Understanding the effect of Dropout layers
 Dropout simulates a sparse activation from a given layer, which interestingly, in turn, encourages the network to actually learn a sparse representation as a side-effect. As such, it may be used as an alternative to activity regularization for encouraging sparse representations in autoencoder models.
 
+# Program
+We used a simple program to find the square of a number. 
+We generated the training data within the program.
+
 # Files and Models
 The model in "square.py" has overfitting problem and gives much deviation in expected results. In "dr-square.py", we added a drop out layer which reduced the deviation in expected results.
 
